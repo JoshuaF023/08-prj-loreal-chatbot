@@ -1,3 +1,106 @@
+/* L'Oréal "Radiant White" branding styles */
+body {
+  background: #fff;
+  color: #231f20;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 2px solid #231f20;
+  padding-bottom: 1rem;
+}
+
+.site-title {
+  color: #231f20;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.chatbox {
+  border: 2px solid #231f20;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(35, 31, 32, 0.07);
+}
+
+.chat-form input[type="text"] {
+  border: 1.5px solid #231f20;
+  border-radius: 8px;
+  background: #fff;
+  color: #231f20;
+}
+
+.chat-form input[type="text"]::placeholder {
+  color: #888;
+}
+
+.chat-form button {
+  background: #231f20;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+.chat-form button:hover {
+  background: #444;
+  color: #fff;
+}
+
+.site-footer {
+  background: #fff;
+  border-top: 2px solid #231f20;
+}
+.site-footer a {
+  color: #231f20;
+}
+
+/* Chat message styles for user and bot */
+.user-message {
+  background: #f5f5f5;
+  color: #231f20;
+  padding: 8px 12px;
+  border-radius: 16px;
+  margin: 8px 0 8px auto;
+  max-width: 75%;
+  text-align: right;
+  align-self: flex-end;
+  border: 1px solid #231f20;
+}
+
+.bot-message {
+  background: #fff;
+  color: #231f20;
+  padding: 8px 12px;
+  border-radius: 16px;
+  margin: 8px auto 8px 0;
+  max-width: 75%;
+  text-align: left;
+  align-self: flex-start;
+  border: 1px solid #231f20;
+}
+/* Chat message styles for user and bot */
+.user-message {
+  background: #e3f2fd;
+  color: #222;
+  padding: 8px 12px;
+  border-radius: 16px;
+  margin: 8px 0 8px auto;
+  max-width: 75%;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.bot-message {
+  background: #f5f5f5;
+  color: #222;
+  padding: 8px 12px;
+  border-radius: 16px;
+  margin: 8px auto 8px 0;
+  max-width: 75%;
+  text-align: left;
+  align-self: flex-start;
+}
 /* —— basic reset —— */
 * {
   box-sizing: border-box;
